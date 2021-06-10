@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="style.css">
+<title>setup</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<ol>
+<li>
+Install chrome canary
+
+<li>
+Install iTerm2
+
+<li>
+Install macvim
+
+<li>
+Insall commnd line tools - xcode-select --install
+
+<li>
+clone <a href="https://github.com/RakshithNM/.dotfiles">https://github.com/RakshithNM/.dotfiles</a> to the home directory
+
+<li>
+In ~/.vimrc add source ~/.dotfiles/vim/.vimrc
+
+<li>
+In ~/.zshrc add source ~/.dotfiles/zsh/.zshrc
+
+<li>
+Install vim plug
+
+<ul>
+<li>
+- curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    <a href="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim">https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim</a>
+
+</ul>
+<li>
+Launch vim and run :PlugInstall
+
+<li>
+Install homebrew
+
+<li>
+Add the following to ~/.dotfiles/zsh/.zshrc
+
+<li>
+Install nodejs
+
+<li>
+Test by installing live-server(npm install -g live-server)
+
+<li>
+Install tmux(brew install tmux)
+
+<li>
+Go to system preferences -&gt; keyboard -&gt; modifier keys and change capslock to behave as control
+
+<li>
+Create a ~/.tmux.conf file and add the following
+    ```
+
+<ol>
+<li>
+Mapping Ctrl-a(Capslock-a) to act as Ctrl-b for tmux
+    unbind C-b
+    set-option -g prefix C-a
+    bind-key C-a send-prefix
+    ```
+
+</ol>
+<li>
+Install lazygit (brew install lazygit)
+
+<li>
+Install lolcat (brew install lolcat)
+
+<li>
+Install Jetbrains mono font and make iterm2 use it
+
+<li>
+Download coffe shop image from unsplash set it as the background with blending on iterm2
+
+<li>
+Install ripgrep (brew install ripgrep)
+
+</ol>
+
+</body>
+</html>
